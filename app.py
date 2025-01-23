@@ -18,7 +18,7 @@ def main():
 
     # Student ID Input
     st.write('🔍 **Enter your Student Details Below:**')
-    student_id = st.text_input('📌 Student ID (e.g., s3266/0064/2024)', '')
+    student_id = st.text_input('📌 Student ID (e.g., S2261/0001/2024)', '')
 
     # Exam Level Selection
     st.write('✏️ **Choose Your Exam Level:**')
