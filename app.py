@@ -27,8 +27,14 @@ def main():
         'ACSEE Form 6 🎓': 'acsee',  # Form 6
         'FTNA Form 2 📘': 'ftna',    # Form 2
         'PSLE Standard 7 🌟': 'psle',    # Standard 7
-        'SFNA Standard 2 🧮': 'sfna'     # Standard 2
+        'SFNA Standard 2 🧮': 'sfna',     # Standard 2
+        'GATCE College 🖱️': 'gatce',    # GATCE, 2019-2024
+        'DSEE College 🖱️': 'dsee',    # DSEE, 2019-2024
+        'GATSCCE College 🖱️': 'gatscce'    # GATSCCE, 2019-2024
     }
+
+
+
     selected_level = st.selectbox('', list(exam_levels.keys()))
 
     # Result Retrieval Button

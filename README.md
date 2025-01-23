@@ -1,6 +1,6 @@
 # NectaPy Results Viewer
 
-A simple project to demonstrate how **NectaPy** can be used to retrieve student exam results effortlessly.
+Angalia matokeo yako kwa urahisi kabisa kwa kuingiza namba yako ya mtihani.
 
 ## How It Works
 1. Enter the **Student ID**.
