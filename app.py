@@ -30,7 +30,7 @@ def main():
         'SFNA Standard 2 🧮': 'sfna',     # Standard 2
         'GATCE College 🖱️': 'gatce',    # GATCE, 2019-2024
         'DSEE College 🖱️': 'dsee',    # DSEE, 2019-2024
-        'GATSCCE College 🖱️': 'gatscce'    # GATSCCE, 2019-2024
+        'GATSCCE College 🖱️': 'gatscce'    # GATSCCE, 2019-2024.
     }
 
 
