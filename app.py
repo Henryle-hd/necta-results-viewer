@@ -18,7 +18,7 @@ def main():
 
     # Student ID Input
     st.write('🔍 **Enter your Student Details Below:**')
-    student_id = st.text_input('📌 Student ID (e.g., S2261/0001/2024)', '')
+    student_id = st.text_input('📌 Student NO (e.g., S2261/0001/2024)', '').strip()
 
     # Exam Level Selection
     st.write('✏️ **Choose Your Exam Level:**')
@@ -34,15 +34,19 @@ def main():
     }
 
 
-
-    selected_level = st.selectbox('', list(exam_levels.keys()))
-
+    selected_level = st.selectbox(
+    label='Select Exam Level',
+    options=list(exam_levels.keys()),
+    label_visibility='collapsed'
+    )
+    # print(selected_level)
     # Result Retrieval Button
     if st.button('🎯 Get Results'):
         if student_id and selected_level:
             try:
                 # Fetch the result using NectaPy
                 result = st_result(student_id, exam_levels[selected_level])
+                # print(result)
                 st.success('✅ Results Retrieved Successfully!')
                 st.write('🎉 **Your Exam Results:**')
                 st.table(result)
